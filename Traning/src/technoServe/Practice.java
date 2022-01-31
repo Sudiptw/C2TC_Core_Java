@@ -1,4 +1,4 @@
-package exceptionalHandling;
+package technoServe;
 
 import java.util.Scanner;
     

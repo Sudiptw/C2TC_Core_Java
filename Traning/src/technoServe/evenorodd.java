@@ -1,4 +1,4 @@
-package trainee;
+package technoServe;
 
 import java.util.Scanner;
 
