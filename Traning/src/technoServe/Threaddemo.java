@@ -1,6 +1,6 @@
 package technoServe;
 
-class Mythread extends Thread{
+class MyThread extends Thread{
 	
 	public void run() {
 		
@@ -13,7 +13,7 @@ class Mythread extends Thread{
 public class Threaddemo {
 
 	public static void main(String[] args) {
-		Mythread m=new Mythread();
+		MyThread m=new MyThread();
 		m.start();
 		System.out.println("*************");
 		System.out.println(Thread.currentThread().getThreadGroup().getParent().getName());
