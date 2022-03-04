@@ -9,3 +9,4 @@ public class GenericT<T extends Number> {
 		GenericT<Integer> t1=new GenericT<Integer>();
 	}
 }
+//
